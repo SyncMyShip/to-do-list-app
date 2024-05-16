@@ -18,7 +18,7 @@ function newItem(){
     // jquery
     // 2. Crossing out an item from the list of items:
     li.on("dblclick", function crossOut() {
-        li.toggleClass("strike").fadeOut('slow');
+        li.toggleClass("strike");
     })
 
     
@@ -32,7 +32,7 @@ function newItem(){
 
     // 3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
         function deleteListItem() {
-            li.toggleClass("delete");
+            li.addClass("delete");
         }
     
     // jquery
